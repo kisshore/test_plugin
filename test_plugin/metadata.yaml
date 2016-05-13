@@ -1,26 +1,26 @@
 # Plugin name
 name: test_plugin
 # Human-readable name for your plugin
-title: Title for test_plugin plugin
+title: Test Plugin for testing.. 
 # Plugin version
 version: '1.0.0'
 # Description
-description: Please describe your plugin here
+description: This plugin created to demonstrate how to create a plugin
 # Required fuel version
 fuel_version: ['8.0']
 # Specify license of your plugin
 licenses: ['Apache License Version 2.0']
 # Specify author or company name
-authors: ['Specify author or company name']
+authors: ['kishore, ericsson']
 # A link to the plugin's page
-homepage: 'https://github.com/openstack/fuel-plugins'
+homepage: 'https://github.com/kisshore/test_plugin'
 # Specify a group which your plugin implements, possible options:
 # network, storage, storage::cinder, storage::glance, hypervisor,
 # equipment
-groups: []
+groups: [storage]
 # Change `false` to `true` if the plugin can be installed in the environment
 # after the deployment.
-is_hotpluggable: false
+is_hotpluggable: true
 
 # The plugin is compatible with releases in the list
 releases:
@@ -31,4 +31,4 @@ releases:
     repository_path: repositories/ubuntu
 
 # Version of plugin package
-package_version: '4.0.0'
+package_version: '1.0.0'

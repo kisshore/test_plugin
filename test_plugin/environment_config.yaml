@@ -9,3 +9,16 @@ attributes:
     description: 'Description for text field'
     weight: 25
     type: "text"
+  test_value_input:
+    value: 'hehe'
+    label: 'It is text field'
+    description: 'This is for test text field'
+    weight: 25
+    type: "text"
+  test2_value_input:
+    value: false
+    label: 'it is checkbox'
+    description: 'this is sample check box'
+    weight: 30
+    type: 'checkbox'
+

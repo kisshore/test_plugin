@@ -24,3 +24,9 @@
 #   type: reboot
 #   parameters:
 #     timeout: 600
+- role: ['testrole']
+  stage: pre_deployment
+  type: shell
+  parameters:
+  cmd: ./testh_echo.sh
+  timeout: 180
